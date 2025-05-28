@@ -1,3 +1,5 @@
+import { redirect } from "next/navigation";
+
 export default function Home() {
-  return <div>alo, https thêm xẹt xẹt /desktopHub</div>;
+  redirect("/desktopHub");
 }
