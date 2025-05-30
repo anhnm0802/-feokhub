@@ -1,6 +1,7 @@
 import Header from "@/components/header";
 import styles from "./page.module.scss";
-import Mission from "@/components/mission";
+import Mission from "@/components/mission/mission";
+import Timeline from "@/components/timeline/Timeline";
 const Page = () => {
   return (
     <>
@@ -18,7 +19,7 @@ const Page = () => {
             trên hành trình kiến tạo sự thịnh vượng đích thực
           </div>
         </div>
-        <div className=" h-[80vh] w-full">
+        <div className=" w-full">
           <div className="text-[2.5rem] font-bold not-italic leading-[129%] tracking-[-0.025rem]">
             <span className={styles.textSpan}>
               Mang lại cuộc sống tốt đẹp hơn
@@ -28,6 +29,9 @@ const Page = () => {
           {/* moe */}
           <div>
             <Mission />
+          </div>
+          <div>
+            <Timeline />
           </div>
         </div>
       </div>
