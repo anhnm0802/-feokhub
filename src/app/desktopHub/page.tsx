@@ -9,7 +9,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Investment from "@/components/investment/Investment";
 import Hug from "@/components/Hug/Hug";
-import Footer from "@/components/footer";
+// import Footer from "@/components/footer";
 const Page = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -149,7 +149,7 @@ const Page = () => {
             <Hug />
           </div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );
