@@ -31,16 +31,16 @@ const Header = () => {
     <>
       <div
         id="header"
-        className={`fixed  top-0 left-0 w-full bg-transparent transition-colors transition-transform duration-300 z-50 flex ${
+        className={`fixed top-0 left-0 w-full bg-transparent transition-colors transition-transform duration-300 z-50 flex items-center ${
           showstate ? "translate-y-0" : "-translate-y-full"
         }`}
       >
-        <div className="px-30 py-5 w-full flex justify-between">
-          <div className="w-50 h-20 bg-contain bg-no-repeat bg-[url('/images/Logo.svg')]"></div>
+        <div className="px-20 py-5 w-full flex justify-between items-center">
+          <div className="sm:w-20 sm:h-20 lg:w-[120px] lg:h-[120px] xl:w-[160px] xl:h-[160px] 2xl:w-[200px] 2xl:h-[200px] bg-contain bg-no-repeat bg-[url('/images/Logo.svg')]"></div>
           <div className="flex gap-10">
             <div className=" bg-black/30 backdrop-blur-md border-3 border-gray-300 rounded-full flex h-fit ">
               <Button
-                className={`w-10 h-10 rounded-full ${
+                className={`sm:w-10 sm:h-10 lg:w-[60px] lg:h-[60px] xl:w-[80px] xl:h-[80px] 2xl:w-[100px] 2xl:h-[100px] rounded-full ${
                   choice ? styles.backgao : " bg-transparent "
                 } text-white flex items-center justify-center`}
                 onClick={handleClickVIE}
@@ -48,7 +48,7 @@ const Header = () => {
                 VIE
               </Button>
               <Button
-                className={`w-10 h-10 rounded-full ${
+                className={`sm:w-10 sm:h-10 lg:w-[60px] lg:h-[60px] xl:w-[80px] xl:h-[80px] 2xl:w-[100px] 2xl:h-[100px] rounded-full ${
                   choice ? " bg-transparent " : styles.backgao
                 } text-white flex items-center justify-center`}
                 onClick={handleClickENG}
@@ -57,7 +57,7 @@ const Header = () => {
               </Button>
             </div>
             <div>
-              <Button className="w-30 h-10   bg-black/30 hover:bg-black/50 text-white cursor-pointer active:scale-95 transition duration-150">
+              <Button className="sm:w-30 sm:h-10 lg:w-[180px] lg:h-[60px] xl:w-[240px] xl:h-[80px] 2xl:w-[300px] 2xl:h-[100px]   bg-black/30 hover:bg-black/50 text-white cursor-pointer active:scale-95 transition duration-150">
                 Menu
                 <Menu />
               </Button>
