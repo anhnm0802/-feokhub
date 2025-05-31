@@ -21,9 +21,9 @@ const Mission = () => {
     );
   };
   return (
-    <div className="grid grid-cols-12 gap-10 w-full overflow-auto  p-10  ">
-      <div className="col-span-12 md:col-span-2 relative">
-        <div className="absolute bg-red-500">alo</div>
+    <div className="grid grid-cols-12 gap-10 w-full  p-10  ">
+      <div className="col-span-12 md:col-span-2 ">
+        <div className=" bg-red-500">alo</div>
       </div>
       <div className="col-span-12 md:col-span-4 flex flex-col  ">
         <div className="flex flex-col gap-20 min-h-full  ">
@@ -33,8 +33,8 @@ const Mission = () => {
           <CpnCBCNV />
         </div>
       </div>
-      <div className="col-span-12 md:col-span-6 relative ">
-        <div className="h-50 w-90 bg-cover bg-no-repeat absolute bg-[url('/images/components/om.svg')] rounded "></div>
+      <div className="col-span-12 md:col-span-6  ">
+        <div className="h-50 w-90 bg-cover bg-no-repeat  bg-[url('/images/components/om.svg')] rounded "></div>
       </div>
     </div>
   );
