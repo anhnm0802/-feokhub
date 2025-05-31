@@ -1,7 +1,10 @@
 .textSpan {
-  background: linear-gradient(to right, #328AE2, #FF0D39);
+  background: linear-gradient(to right, #328ae2, #ff0d39);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+}
+.textDot {
+  color: #155bb8;
 }

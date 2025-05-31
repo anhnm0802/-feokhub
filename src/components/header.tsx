@@ -40,24 +40,24 @@ const Header = () => {
           <div className="flex gap-10">
             <div className=" bg-black/30 backdrop-blur-md border-3 border-gray-300 rounded-full flex h-fit ">
               <Button
-                className={`sm:w-10 sm:h-10 lg:w-[60px] lg:h-[60px] xl:w-[80px] xl:h-[80px] 2xl:w-[100px] 2xl:h-[100px] rounded-full ${
+                className={`sm:w-10 sm:h-10 lg:w-[60px] lg:h-[60px]  rounded-full ${
                   choice ? styles.backgao : " bg-transparent "
-                } text-white flex items-center justify-center`}
+                } text-white flex items-center justify-center   hover:bg-black/50 text-white cursor-pointer active:scale-95 transition duration-150`}
                 onClick={handleClickVIE}
               >
                 VIE
               </Button>
               <Button
-                className={`sm:w-10 sm:h-10 lg:w-[60px] lg:h-[60px] xl:w-[80px] xl:h-[80px] 2xl:w-[100px] 2xl:h-[100px] rounded-full ${
+                className={`sm:w-10 sm:h-10 lg:w-[60px] lg:h-[60px]  rounded-full ${
                   choice ? " bg-transparent " : styles.backgao
-                } text-white flex items-center justify-center`}
+                } text-white flex items-center justify-center   hover:bg-black/50 text-white cursor-pointer active:scale-95 transition duration-150`}
                 onClick={handleClickENG}
               >
                 ENG
               </Button>
             </div>
             <div>
-              <Button className="sm:w-30 sm:h-10 lg:w-[180px] lg:h-[60px] xl:w-[240px] xl:h-[80px] 2xl:w-[300px] 2xl:h-[100px]   bg-black/30 hover:bg-black/50 text-white cursor-pointer active:scale-95 transition duration-150">
+              <Button className="sm:w-30 sm:h-10 lg:w-[180px] lg:h-[60px]   bg-black/30 hover:bg-black/50 text-white cursor-pointer active:scale-95 transition duration-150">
                 Menu
                 <Menu />
               </Button>

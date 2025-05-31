@@ -7,6 +7,7 @@ import Timeline from "@/components/timeline/Timeline";
 import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Investment from "@/components/investment/Investment";
 const Page = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -100,7 +101,14 @@ const Page = () => {
           </div>
         </div>
         <div className="bg-cover bg-center h-[80vh] w-full bg-[url('/images/homeimg3.svg')] flex justify-center items-center">
-          <div className="w-[62%] pt-10 flex justify-center">
+          <div className="w-[62%] pt-10 flex flex-col items-center gap-3">
+            <div
+              className={`text-[2.5rem] font-bold not-italic leading-[129%] tracking-[-0.025rem] ${styles.textDot}`}
+            >
+              <span className="text-[2rem] leading-none"> • </span>
+              TẦM NHÌN
+              <span className="text-[2rem] leading-none"> • </span>
+            </div>
             <div className="text-[2.5rem] font-bold not-italic leading-[129%] tracking-[-0.025rem] ">
               Ami&M xây dựng{" "}
               <span className={styles.textSpan}> hệ sinh thái đa ngành </span>
@@ -112,7 +120,7 @@ const Page = () => {
           </div>
         </div>
         <div className=" w-full flex flex-col items-center">
-          <div className="text-[2.5rem] font-bold not-italic leading-[129%] tracking-[-0.025rem] w-[70%] ">
+          <div className="text-[2.5rem] font-bold not-italic leading-[129%] tracking-[-0.025rem] w-[70%] flex flex-col items-center ">
             <span className={styles.textSpan}>
               Mang lại cuộc sống tốt đẹp hơn
             </span>{" "}
@@ -123,8 +131,12 @@ const Page = () => {
             <Mission />
           </div>
           <div>
+            <Investment />
+          </div>
+          <div>
             <Timeline />
           </div>
+          <div></div>
         </div>
       </div>
     </>
