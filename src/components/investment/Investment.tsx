@@ -69,7 +69,7 @@ const Investment = () => {
     <>
       <div className="grid grid-cols-12 gap-5 w-full  pt-10 pl-10 pb-10    ">
         <div className={`hidden sm:flex sm:col-span-6`}>
-          <div>
+          <div className="flex flex-col gap-4">
             <div
               className={`text-[2.5rem] font-bold not-italic leading-[129%] tracking-[-0.025rem] ${styles.textDot}`}
             >
@@ -83,7 +83,7 @@ const Investment = () => {
               Ami&M là đối tác tư vấn - đầu tư bền vững, phát triển dịch vụ cao
               cấp và nâng tầm giáo dục trải nghiệm.
             </p>
-            <p>
+            <p className="text-[1rem] lg:text-[1.2rem] xl:text-[1.3rem] 2xl:text-[1.5rem]">
               Với hệ sinh thái tối ưu, Ami&M truyền cảm hứng xây dựng sự thịnh
               vượng đích thực cho những Người đồng hành và tạo lập di sản xứng
               tầm cho thế hệ tương lai.

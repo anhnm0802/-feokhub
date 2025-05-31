@@ -13,10 +13,12 @@ const Mission = () => {
     return (
       <div className="flex flex-col w-[70%]">
         <div className="h-10 w-10 bg-contain bg-no-repeat bg-[url('/images/components/cnv.svg')]"></div>
-        <div className={`uppercase text-lg font-semibold ${styles.colorText} `}>
+        <div
+          className={`uppercase  text-[1rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.5rem] font-semibold ${styles.colorText} `}
+        >
           với cán bộ nhân viên
         </div>
-        <div className="text-sm">
+        <div className=" text-[0.8rem] lg:text-[1rem] xl:text-[1.1rem] 2xl:text-[1.2rem]">
           Cảm thấy gắn kết, được trân trọng, được tạo cơ hội để khai phá, phát
           triển, khẳng định giá trị bản thân
         </div>
@@ -27,10 +29,12 @@ const Mission = () => {
     return (
       <div className="flex flex-col w-[70%]">
         <div className="h-10 w-10 bg-contain bg-no-repeat bg-[url('/images/components/cpnkh.svg')]"></div>
-        <div className={`uppercase text-lg font-semibold ${styles.colorText} `}>
+        <div
+          className={`uppercase text-[1rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.5rem] font-semibold ${styles.colorText} `}
+        >
           với khách hàng
         </div>
-        <div className="text-sm">
+        <div className="text-[0.8rem] lg:text-[1rem] xl:text-[1.1rem] 2xl:text-[1.2rem]">
           Cung cấp các sản phẩm - dịch vụ theo tiêu chuẩn quốc tế, mang đến cho
           khách hàng những trải nghiệm tốt nhất
         </div>
@@ -41,10 +45,12 @@ const Mission = () => {
     return (
       <div className="flex flex-col w-[70%] ">
         <div className="h-10 w-10 bg-contain bg-no-repeat bg-[url('/images/components/battaysvg.svg')]"></div>
-        <div className={`uppercase text-lg font-semibold ${styles.colorText} `}>
+        <div
+          className={`uppercase text-[1rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.5rem] font-semibold ${styles.colorText} `}
+        >
           với đối tác
         </div>
-        <div className="text-sm ">
+        <div className="text-[0.8rem] lg:text-[1rem] xl:text-[1.1rem] 2xl:text-[1.2rem] ">
           Tin tưởng và muốn hợp tác dài lâu trên nền tảng của sự phát triển bền
           vững và hướng tới những giá trị tốt đẹp
         </div>
@@ -55,10 +61,12 @@ const Mission = () => {
     return (
       <div className="flex flex-col w-[70%]">
         <div className="h-10 w-10 bg-contain bg-no-repeat bg-[url('/images/components/cd.svg')]"></div>
-        <div className={`uppercase text-lg font-semibold ${styles.colorText} `}>
+        <div
+          className={`uppercase text-[1rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.5rem] font-semibold ${styles.colorText} `}
+        >
           với cộng đồng
         </div>
-        <div className="text-sm">
+        <div className="text-[0.8rem] lg:text-[1rem] xl:text-[1.1rem] 2xl:text-[1.2rem]">
           Hài hòa lợi ích doanh nghiệp với lợi ích xã hội, đóng góp tích cực cho
           các hoạt động hướng về cộng đồng
         </div>

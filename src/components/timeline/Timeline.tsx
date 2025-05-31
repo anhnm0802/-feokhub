@@ -13,11 +13,11 @@ const Timeline = () => {
           <div className={`text-[5.5rem] ${styles.colorTextHeader} `}>
             Dấu ấn Ami&M
           </div>
-          <div>
+          <p className="text-[1rem] lg:text-[1.2rem] xl:text-[1.3rem] 2xl:text-[1.5rem]">
             Phía sau những con số là hành trình nỗ lực không ngừng của đội ngũ
             những Người đồng hành cùng chung giá trị, sát cánh bên nhau, tin
             tưởng lẫn nhau, và từng ngày phấn đấu cho mục tiêu chung.
-          </div>
+          </p>
         </div>
       </>
     );

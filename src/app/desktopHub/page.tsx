@@ -8,6 +8,8 @@ import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Investment from "@/components/investment/Investment";
+import Hug from "@/components/Hug/Hug";
+import Footer from "@/components/footer";
 const Page = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -120,6 +122,13 @@ const Page = () => {
           </div>
         </div>
         <div className=" w-full flex flex-col items-center">
+          <div
+            className={`text-[1.5rem] uppercase font-bold not-italic leading-[129%] tracking-[-0.025rem] ${styles.textDot}`}
+          >
+            <span className="text-[2rem] leading-none"> • </span>
+            Sứ mệnh
+            <span className="text-[2rem] leading-none"> • </span>
+          </div>
           <div className="text-[2.5rem] font-bold not-italic leading-[129%] tracking-[-0.025rem] w-[70%] flex flex-col items-center ">
             <span className={styles.textSpan}>
               Mang lại cuộc sống tốt đẹp hơn
@@ -136,8 +145,11 @@ const Page = () => {
           <div>
             <Timeline />
           </div>
-          <div></div>
+          <div>
+            <Hug />
+          </div>
         </div>
+        <Footer />
       </div>
     </>
   );
